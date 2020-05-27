@@ -1,0 +1,61 @@
+.left {
+  width: 15%;
+  float: left;
+  background-color: #A24A37;
+  color: whitesmoke;
+  text-align: center;
+}
+
+.right {
+  width: 15%;
+  float: right;
+  background-color: #A24A37;
+  color: whitesmoke;
+  text-align: center;
+}
+
+.center {
+  text-align: center;
+  padding-left: 350px;
+  padding-right: 350px;
+}
+
+.subtitle {
+  text-align: center;
+  font-style: italic;
+}
+
+h1 {
+  text-align: center;
+  color: #A24A37;
+  font-size: 80px;
+}
+
+html {
+  background-color: black;
+  color: whitesmoke;
+}
+
+h3 {
+  text-decoration: underline;
+  font-size: 30px;
+}
+
+.float {
+  font-weight: bold;
+  font-size: 25px;
+  color: red;
+  text-decoration: underline;
+}
+
+.span {
+  font-weight: bold;
+  font-size: 25px;
+  color: yellow;
+  font-style: italic;
+}
+
+p {
+  font-size: 20px;
+  font-family: verdana;
+}
