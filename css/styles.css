@@ -1,16 +1,22 @@
 .left {
   width: 15%;
   float: left;
-  background-color: #A24A37;
-  color: whitesmoke;
+  /*background-color: whitesmoke;*/
+  background-image: url("https://i.imgur.com/AsU1n8H.png"); /*Whitesmoke placeholder image*/
+  background-repeat: repeat;
+  background-blend-mode: normal;
+  color: black;
   text-align: center;
 }
 
 .right {
   width: 15%;
   float: right;
-  background-color: #A24A37;
-  color: whitesmoke;
+  /*background-color: whitesmoke;*/
+  background-image: url("https://i.imgur.com/AsU1n8H.png"); /*Whitesmoke placeholder image*/
+  background-repeat: repeat;
+  background-blend-mode: normal;
+  color: black;
   text-align: center;
 }
 
@@ -27,32 +33,27 @@
 
 h1 {
   text-align: center;
-  color: #A24A37;
+  color: black;
   font-size: 80px;
 }
 
 html {
-  background-color: black;
-  color: whitesmoke;
+  background-color: #A24A37;
+  color: black;
 }
 
 .link {
-  color: #007BE8;
+  color: rgb(0, 4, 232);
 }
 
 .link:hover {
-  font-weight: bold;
   color: #007BE8;
-}
-
-.link:visited {
-  color: #9E4DFF;
 }
 
 h3 {
   text-decoration: none;
   font-size: 30px;
-  color: #A24A37;
+  color: black;
 }
 
 .float {
