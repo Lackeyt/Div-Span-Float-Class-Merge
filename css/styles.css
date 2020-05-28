@@ -16,8 +16,8 @@
 
 .center {
   text-align: center;
-  padding-left: 350px;
-  padding-right: 350px;
+  padding-left: 20%;
+  padding-right: 20%;
 }
 
 .subtitle {
@@ -36,21 +36,35 @@ html {
   color: whitesmoke;
 }
 
+.link {
+  color: #007BE8;
+}
+
+.link:hover {
+  font-weight: bold;
+  color: #007BE8;
+}
+
+.link:visited {
+  color: #9E4DFF;
+}
+
 h3 {
-  text-decoration: underline;
+  text-decoration: none;
   font-size: 30px;
+  color: #A24A37;
 }
 
 .float {
   font-weight: bold;
-  font-size: 25px;
+  font-size: 20px;
   color: red;
-  text-decoration: underline;
+  font-style: italic;
 }
 
 .span {
   font-weight: bold;
-  font-size: 25px;
+  font-size: 20px;
   color: yellow;
   font-style: italic;
 }
@@ -58,4 +72,5 @@ h3 {
 p {
   font-size: 20px;
   font-family: verdana;
+  text-align: justify;
 }
