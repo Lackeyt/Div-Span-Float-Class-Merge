@@ -1,23 +1,19 @@
 .left {
   width: 15%;
   float: left;
-  /*background-color: whitesmoke;*/
-  background-image: url("https://i.imgur.com/AsU1n8H.png"); /*Whitesmoke placeholder image*/
-  background-repeat: repeat;
-  background-blend-mode: normal;
+  background-color: whitesmoke;
   color: black;
   text-align: center;
+  /*font-weight: bold;*/
 }
 
 .right {
   width: 15%;
   float: right;
-  /*background-color: whitesmoke;*/
-  background-image: url("https://i.imgur.com/AsU1n8H.png"); /*Whitesmoke placeholder image*/
-  background-repeat: repeat;
-  background-blend-mode: normal;
+  background-color: whitesmoke;
   color: black;
   text-align: center;
+  font-weight: bold;
 }
 
 .center {
@@ -74,4 +70,8 @@ p {
   font-size: 20px;
   font-family: verdana;
   text-align: justify;
+}
+
+.pfloat {
+  text-align: center;
 }
